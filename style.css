@@ -1,0 +1,20 @@
+th{
+    background-color: cyan;
+}
+h1
+{
+    color: burlywood;
+}
+td{
+
+    font-style: initial;
+    font-family: fantasy;
+    font-variant: normal;
+    font-display: 12;
+
+    
+}
+#border
+{
+    border-bottom: inset;
+}
