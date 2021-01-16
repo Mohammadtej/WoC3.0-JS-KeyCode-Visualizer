@@ -3,7 +3,8 @@ th{
 }
 h1
 {
-    color: burlywood;
+    color: rgb(45, 201, 6);
+    font-style: italic;
 }
 td{
 
@@ -11,10 +12,20 @@ td{
     font-family: fantasy;
     font-variant: normal;
     font-display: 12;
+    text-align: center;
 
     
 }
 #border
 {
     border-bottom: inset;
+}
+html{
+    background-color: cornsilk;
+    
+}
+p
+{
+    font-style: italic;
+    color: darkgray;
 }
