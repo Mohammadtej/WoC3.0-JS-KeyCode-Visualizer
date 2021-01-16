@@ -1,0 +1,26 @@
+th{
+    background-color: cyan;
+}
+h1
+{
+    color: rgb(45, 201, 6);
+    font-style: italic;
+}
+td{
+
+    font-style: initial;
+    font-family: fantasy;
+    font-variant: normal;
+    font-display: 12;
+    text-align: center;
+
+    
+}
+#border
+{
+    border-bottom: inset;
+}
+html{
+    background-color: cornsilk;
+    
+}
