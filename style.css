@@ -24,3 +24,8 @@ html{
     background-color: cornsilk;
     
 }
+p
+{
+    font-style: italic;
+    color: darkgray;
+}
