@@ -1,5 +1,11 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 th{
     background-color: cyan;
+    border-right: 3px solid azure;
 }
 h1
 {
@@ -13,19 +19,32 @@ td{
     font-variant: normal;
     font-display: 12;
     text-align: center;
-
-    
 }
+
 #border
 {
     border-bottom: inset;
 }
-html{
-    background-color: cornsilk;
+#change{
+    background: cornsilk;
+    animation: mymove 5s infinite;
     
+}
+@keyframes mymoves
+{
+    from {background-color: cornsilk;}
+    to {background-color: rgb(124, 114, 102);}
 }
 p
 {
     font-style: italic;
     color: darkgray;
 }
+tbody tr:nth-child(odd) {
+    background-color: rgb(247, 245, 240);
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: antiquewhite;
+  }
+
