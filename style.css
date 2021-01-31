@@ -29,3 +29,6 @@ p
     font-style: italic;
     color: darkgray;
 }
+table, th, td {
+    border: 1px solid orange;
+  }

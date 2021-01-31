@@ -181,6 +181,14 @@ const items1 = [
     {keycode:"251",keyval:'unlock trackpad (Chrome/Edge)'},
     {keycode:"255",keyval:'toggle touchpad'},
 ];
+function myFunction(event) {
+  var x = event.which || event.keyCode;
+  document.getElementById("demo").innerHTML = "The Unicode value is: " + x;
+  var magic = document.getElementById("head");
+  magic.style.display = 'none';
+  
+
+}
 
 function add_data(items){
   const table = document.getElementById("add_data_here");
